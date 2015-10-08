@@ -1,0 +1,50 @@
+{
+  "name": "ibo-client",
+  "version": "0.0.10",
+  "repository": "iboozyvoozy/ibo-client",
+  "dependencies": {
+    "del": "",
+    "lodash": "",
+    "express": "",
+    "optimist": "",
+    "compression": "",
+    "streamqueue": "",
+    "run-sequence": "",
+    "coffee-script": "",
+    "gulp": "",
+    "gulp-if": "",
+    "gulp-jade": "",
+    "gulp-babel": "",
+    "gulp-shell": "",
+    "gulp-concat": "",
+    "gulp-rename": "",
+    "gulp-filter": "",
+    "gulp-uglify": "",
+    "gulp-coffee": "",
+    "gulp-stylus": "",
+    "gulp-notify": "",
+    "gulp-inject": "",
+    "gulp-changed": "",
+    "gulp-plumber": "",
+    "gulp-add-src": "",
+    "gulp-minify-css": "",
+    "gulp-sourcemaps": "",
+    "gulp-autoprefixer": "",
+    "css-sprite": "",
+    "gulp-docco": "",
+    "gulp-imagemin": "",
+    "gulp-ng-annotate": "",
+    "gulp-angular-templatecache": "",
+    "gulp-load-plugins": ""
+  },
+  "scripts": {
+    "client-dev": "gulp",
+    "client-prod": "gulp --prod",
+    "server-dev": "pm2 start server/server.coffee --watch",
+    "server-prod": "pm2 start server/server.coffee",
+    "test": "echo 'Error: no test specified'"
+  },
+  "engines": {
+    "node": ">= 0.12"
+  }
+}

@@ -1,0 +1,15 @@
+extends assets/jade/root
+
+block head
+
+	title App
+	
+block body
+
+	h1 :)
+
+	.l(ng-controller="layout.ctrl as layout")
+
+		.l-main(ng-controller="ui.ctrl as ui")
+
+			.l-content(ui-view="content")

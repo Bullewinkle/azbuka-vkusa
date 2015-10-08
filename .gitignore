@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+*.log
+*.sublime-project
+*.sublime-workspace
+
+docs/
+dist/
+node_modules/
+bower_components/
+
+src/assets/jade/root.jade
+src/assets/img/sprite-png/
+src/assets/styles/sprite-png/
