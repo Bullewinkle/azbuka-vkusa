@@ -1,0 +1,140 @@
+// Widths + offsets
+for val, i in 1..100
+  .l-{i+1}
+    width unit(i+1, '%')
+  .l-offr-{i+1}
+    margin-right unit(i+1, '%')
+  .l-offl-{i+1}
+    margin-left unit(i+1, '%')
+
+
+// Grid columns
+.l-col-1-2
+  width 50%
+.l-col-1-3
+  width 33.333%
+.l-col-1-4
+  width 25%
+.l-col-3-4
+  width 75%
+.l-col-1-5
+  width 20%
+.l-col-2-5
+  width 40%
+.l-col-3-5
+  width 60%
+.l-col-4-5
+  width 80%
+
+
+// Margins + paddings
+for val in 10 15 20 25 30 40 50
+  .l-h-{val}
+    height unit(val, 'px')
+  .l-p-{val}
+    padding unit(val, 'px')
+  .l-pt-{val}
+    padding-top unit(val, 'px')
+  .l-pl-{val}
+    padding-left unit(val, 'px')
+  .l-pr-{val}
+    padding-right unit(val, 'px')
+  .l-pb-{val}
+    padding-bottom unit(val, 'px')
+  .l-ptb-{val}
+    padding-top unit(val, 'px')
+    padding-bottom unit(val, 'px')
+  .l-plr-{val}
+    padding-left unit(val, 'px')
+    padding-right unit(val, 'px')
+  .l-m-{val}
+    margin unit(val, 'px')
+  .l-mt-{val}
+    margin-top unit(val, 'px')
+  .l-ml-{val}
+    margin-left unit(val, 'px')
+  .l-mr-{val}
+    margin-right unit(val, 'px')
+  .l-mb-{val}
+    margin-bottom unit(val, 'px')
+  .l-mtb-{val}
+    margin-top unit(val, 'px')
+    margin-bottom unit(val, 'px')
+  .l-mlr-{val}
+    margin-left unit(val, 'px')
+    margin-right unit(val, 'px')
+
+
+// Layout types
+.l-row
+  clearfix()
+
+.l-row-gutter-10
+  clearfix()
+  margin-left -5px
+  margin-right -5px
+
+  & > *
+    padding-left 5px
+    padding-right 5px
+
+.l-row-gutter-20
+  clearfix()
+  margin-left -10px
+  margin-right -10px
+
+  & > *
+    padding-left 10px
+    padding-right 10px
+
+.l-row-gutter-30
+  clearfix()
+  margin-left -15px
+  margin-right -15px
+
+  & > *
+    padding-left 15px
+    padding-right 15px
+
+.l-left
+  float left !important
+
+.l-right
+  float right !important
+
+.l-center
+  margin-left auto
+  margin-right auto
+
+.l-line
+  & > *
+    display inline-block
+
+.l-midline
+  & > *
+    vertical-align middle
+    display inline-block
+
+.l-tline
+  display table
+  & > *
+    vertical-align middle
+    display table-cell
+
+.l-tline-full
+  width 100%
+  display table
+  & > *
+    vertical-align middle
+    display table-cell
+
+.l-flex
+	display flex
+	flex-flow row wrap
+	justify-content center
+
+.l-flex-inline
+	display: inline-flex
+
+.l-flex-vcenter
+	align-items: center

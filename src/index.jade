@@ -3,13 +3,64 @@ extends assets/jade/root
 block head
 
 	title App
-	
+
 block body
 
-	h1 :)
+	.l
 
-	.l(ng-controller="layout.ctrl as layout")
+		.l-main
 
-		.l-main(ng-controller="ui.ctrl as ui")
+			.l-header
+				.container-fluid
+					.row
+						.col-xs-12.l-header-info
+							h1.f-main-heading
+								| Ни дня
+								br
+								| без простых
+								br
+								| удовольствий
+							.logo.m-main
+								img(src="/assets/img/main-logo.svg")
 
-			.l-content(ui-view="content")
+			.l-content.m-info
+				.container-fluid
+					.row.text-center
+						.col-xs-12.col-sm-6.col-md-3
+							.icon.center-block.m-heart
+							.text.m-1 Можно себя порадовать
+							.text.m-2 Зачем запрещать себе то, что любишь! Ваши любимые продукты из Азбуки Вкуса - всегда свежие овощи и фрукты, натуральные молочные и мясные продукты, вкусная домашняя выпечка и кулинария – готовы радовать вас каждый день.
+
+						.col-xs-12.col-sm-6.col-md-3
+							.icon.center-block.m-beaf
+							.text.m-1 Можно себе позволить
+							.text.m-2 Ваши любимые продукты в Азбуке Вкуса доступнее, чем кажутся: сезонные овощи и фрукты, серия “Наша ферма" и продукты Российских производителей удивят вас умеренными ценами.
+
+						.col-xs-12.col-sm-6.col-md-3
+							.icon.center-block.m-cart
+							.text.m-1 Можно не выходить из дома
+							.text.m-2 Если сегодня у вас нет времени заехать в Азбуку Вкуса, вы можете доставить себе простые удовольствия курьером, заказав нужные вам продукты в нашем интернет-магазине.
+							button.s-action
+								| Купить с доставкой
+
+						.col-xs-12.col-sm-6.col-md-3
+							.icon.center-block.m-house
+							.text.m-1 Можно зайти по дороге
+							.text.m-2 Супермаркеты Азбука Вкуса удобно расположены по всей Москве, чтобы ни один ваш день не остался без простых удовольствий. Найдите ближайший к вам магазин. 
+							button.s-action
+								| Посмотреть карту
+
+			.l-content.m-map
+			.l-content.m-video
+			.l-footer
+				.container-fluid
+					.row.text-center
+						.h1
+							|ПРОСТЫЕ УДОВОЛЬСТВИЯ
+							br
+							|ЖДУТ ВАС
+							br
+							|В АЗБУКЕ ВКУСА.
+						.credits
+							span.l-mr-10.qualification 18+
+							span.text © Азбука Вкуса, 2015. Все права защищены. Условия и соглашения.
