@@ -19,7 +19,7 @@ app.use compression()
 if build.config.spa
 	app.use '/assets', express.static(assets)
 	app.all '/*', (req, res) ->
-		res.sendFile(path.join(__dirname, "../#{dist}", "index.html"))
+		res.sendFile(path.join(__pdirname, "../#{dist}", "index.html"))
 else
 	app.use '/', express.static(dist)
 

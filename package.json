@@ -38,7 +38,7 @@
     "gulp-load-plugins": ""
   },
   "scripts": {
-  	"start": "coffee server/server.coffee",
+  	"start": "pm2 start server/server.coffee",
     "client-dev": "gulp",
     "client-prod": "gulp --prod",
     "server-dev": "pm2 start server/server.coffee --watch",
@@ -46,6 +46,6 @@
     "test": "echo 'Error: no test specified'"
   },
   "engines": {
-    "node": ">=0.12 <4.0"
+    "node": "0.12.2"
   }
 }
