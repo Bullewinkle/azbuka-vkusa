@@ -1,7 +1,7 @@
 {
-  "name": "ibo-client",
+  "name": "alphabet-of-taste",
   "version": "0.0.10",
-  "repository": "iboozyvoozy/ibo-client",
+  "repository": "https://git.heroku.com/alphabet-of-taste.git",
   "dependencies": {
     "del": "",
     "lodash": "",
@@ -45,6 +45,6 @@
     "test": "echo 'Error: no test specified'"
   },
   "engines": {
-    "node": ">= 0.12"
+    "node": ">=0.12 <4.0"
   }
 }
