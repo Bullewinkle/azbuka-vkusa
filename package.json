@@ -38,7 +38,7 @@
     "gulp-load-plugins": ""
   },
   "scripts": {
-  	"start": "pm2 start server/server.coffee",
+  	"start": "gulp --prod",
     "client-dev": "gulp",
     "client-prod": "gulp --prod",
     "server-dev": "pm2 start server/server.coffee --watch",
