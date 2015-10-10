@@ -1,0 +1,11 @@
+var _botscanner = [];
+(function (botscanner_banner) {
+    if (window.is_botscanner_started && window.is_botscanner_started == true) return;
+    var ncsHost = "//counter1.botscanner.com/Counter/Index/?dspId=&uuid=&pixelId=&referer=" + encodeURIComponent(document.referrer || "");
+    if (botscanner_banner)
+        ncsHost += "&banner_id=" + botscanner_banner;
+    var ncs = document.createElement('script'); ncs.type = 'text/javascript'; ncs.async = true;
+    ncs.src = ncsHost;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ncs, s);
+    window.is_botscanner_started=true;
+})();
