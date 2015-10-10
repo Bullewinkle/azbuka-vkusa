@@ -1,0 +1,101 @@
+.l-header
+	background: radial-gradient(ellipse 70% 160% at 63% 80%, #d4f1ff 10%, #afcee7 60%, #87a9cb 100%)
+	&-info
+		z-index 10
+		padding-top: 100px
+		padding-bottom: 70px
+		@media screen and (min-width: $screen-sm-min)
+			padding-top: 180px
+			padding-bottom: 80px
+		@media screen and (min-width: $screen-md-min)
+			padding-top: 230px
+			padding-bottom: 160px
+
+.f-main-heading
+	color black
+	z-index 10
+
+	@media screen and (max-width: $screen-xs-max)
+		margin-bottom: 40px
+		font-size: 40px;
+		line-height: 44px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		text-align: center;
+
+	@media screen and (min-width: $screen-sm-min)
+		margin-bottom: 40px
+		padding-left: 22px;
+		font-size: 40px;
+		line-height: 44px;
+		font-weight: 100;
+		letter-spacing: 2px;
+
+	@media screen and (min-width: $screen-md-min)
+		margin-bottom: 70px
+		padding-left: 42px;
+		font-size: 77px
+		line-height: 86px
+		letter-spacing: 4px;
+		font-weight: 100
+
+.sun
+	@extend .sprite-bg
+	background-position: 0 -33px;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	left: 50%;
+	margin-left: -55px;
+	top: -11px;
+	background-size: 200px;
+	@media screen and (min-width: $screen-md-min)
+		background-position: 0 -66px;
+		width: 300px;
+		height: 260px;
+		position: absolute;
+		left: 258px;
+		top: -1px;
+		background-size: 400px;
+		z-index 1
+
+.man-vegetables
+	width: 200px;
+	height: 190px;
+	position: absolute;
+	bottom: -10px;
+	right: 0;
+	z-index: 2
+
+	@media screen and (min-width: $screen-sm-min)
+		width: 490px;
+		height: 460px;
+		position: absolute;
+		bottom: -10px;
+		right: 0;
+	@media screen and (min-width: $screen-md-min)
+		width: 560px;
+		height: 541px;
+		position: absolute;
+		bottom: -10px;
+		right: 0;
+	@media screen and (min-width: $screen-lg-min)
+		width: 871px
+		height: 832px
+		position: absolute
+		bottom: -30px
+		right: 0
+
+	.man
+	.layer
+		width: 100%
+		height: auto
+		position: absolute
+		top: 0
+		left: 0
+		transition opacity 1.3s ease-in-out
+
+	.layer
+		opacity 0
+		&.is-visible
+			opacity 1

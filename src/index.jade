@@ -10,9 +10,9 @@ block body
 
 		.l-main
 
-			.l-header
+			.l-header.no-overflow
 				.container-fluid
-					.row
+					.row.relative
 						.col-xs-12.l-header-info
 							h1.f-main-heading.hidden-xs
 								| Ни дня
@@ -26,6 +26,18 @@ block body
 								| удовольствий
 							.logo.m-main
 								img(src="/assets/img/main-logo.svg")
+
+						.sun
+
+						.man-vegetables.hidden-xs
+							img.man(src="/assets/img/man_vegetables/man.png")
+							img.layer(src="/assets/img/man_vegetables/layer_1.png")
+							img.layer(src="/assets/img/man_vegetables/layer_2.png")
+							img.layer(src="/assets/img/man_vegetables/layer_3.png")
+							img.layer(src="/assets/img/man_vegetables/layer_4.png")
+							img.layer(src="/assets/img/man_vegetables/layer_5.png")
+							img.layer(src="/assets/img/man_vegetables/layer_6.png")
+
 
 
 			.l-content.m-info
@@ -55,7 +67,7 @@ block body
 							button.s-action
 								| Посмотреть карту
 
-			.l-content.m-map
+			.l-content.m-map.hidden
 				include assets/jade/map-iframe
 			.l-content.m-video
 				.embed-responsive.embed-responsive-16by9

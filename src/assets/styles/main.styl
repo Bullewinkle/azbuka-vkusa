@@ -2,7 +2,11 @@
 @import "helpers/index"
 @import "../font/index"
 @import "common"
-@import "map"
+@import "components/icons"
+@import "components/map"
+@import "header"
+@import "content"
+@import "footer"
 
 
 // debug
@@ -20,9 +24,9 @@
 //body
 //	background: rgba(255,255,255,0.1);
 //
-.l-header
+//.l-header
 //	height: 840px
-	background-image: url('/assets/img/dev_header.jpg')
+//	background-image: url('/assets/img/dev_header.jpg')
 	//opacity 0.5
 
 //.l-content
@@ -38,130 +42,3 @@
 // debug end
 
 $black = #232323;
-
-*
-	margin: 0
-	padding: 0
-
-html
-	margin: 0 auto
-
-body
-	font-family "Gill Sans"
-
-.container-fluid
-	max-width: 1280px
-	
-.l-main
-	padding-bottom: 20px
-	& > *
-		position: relative
-		background-position center
-		background-repeat: no-repeat
-
-.l-header
-	&-info
-		@media screen and (max-width: $screen-xs-max)
-			padding-top: 100px
-			padding-bottom: 70px
-		@media screen and (min-width: $screen-sm-min)
-			padding-top: 230px
-			padding-bottom: 160px
-
-.l-content
-	&.m-info
-		padding-top: 55px
-		padding-bottom: 85px
-
-		.col-xs-12
-			padding-bottom: 20px;
-			min-height: 300px;
-
-		.icon
-			height: 55px
-			margin-bottom: 14px
-
-		.text
-			color $black
-			&.m-1
-				font-family: "Helvetica";
-				font-size: 14px
-				line-height: 22px;
-				font-weight: 400
-				text-transform: uppercase
-				margin-bottom: 20px
-
-			&.m-2
-				font-family: "Myriad Pro";
-				font-size: 14px
-				line-height: 22px;
-				font-weight: 100
-
-		button
-			margin-top: 20px
-
-
-
-
-	&.m-map
-		margin-bottom: 130px
-	//&.m-video
-
-
-
-
-.l-footer
-	padding-top: 30px
-	.h1
-		font-size: 30px
-		line-height: 38px
-		font-weight: 100
-		letter-spacing: 2px
-
-.f-main-heading
-	color black
-
-	@media screen and (max-width: $screen-xs-max)
-		margin-bottom: 40px
-		font-size: 40px;
-		line-height: 44px;
-		font-weight: 100;
-		letter-spacing: 2px;
-		text-align: center;
-
-	@media screen and (min-width: $screen-sm-min)
-		margin-bottom: 70px
-		padding-left: 42px;
-		font-size: 77px
-		line-height: 86px
-		letter-spacing: 4px;
-		font-weight: 100
-
-
-
-.logo
-	&.m-main
-		img
-			width: 355px
-		@media screen and (max-width: $screen-xs-max)
-			padding-left: 10px
-			text-align: center
-		@media screen and (min-width: $screen-sm-min)
-			padding-left: 30px
-
-button
-input[type=submit]
-input[type=button]
-	border none
-	outline none
-	box-shadow none
-	padding: 11px 35px
-	font-size: 15px
-	line-height: 24px
-
-	&.s-green
-	&.s-action
-		background: linear-gradient(top, #61902a,#4c721f)
-		color: white
-
-//.l-footer
