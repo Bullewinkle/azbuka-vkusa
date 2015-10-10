@@ -1,0 +1,404 @@
+.wrapper
+	.gradient_light_gray.shops_search_header
+		.row
+			.col-xs-6.col-xs-12.padding-left-0
+				.shops_search_header_city_toggler
+					a.active(href='#msk', name='msk_link')
+						span.link_dotted(name='msk') Москва и Московская область
+					a(href='#spb', name='spb_link')
+						span.link_dotted(name='spb') Санкт-Петербург
+			.col-xs-6.col-xs-12.padding-right-0.shop_menu_msk
+				.shops_search_header_city_filters
+					a.simple_green_btn(href='#all_shops', data-prop='general') Показать все
+					a.filter_btn_i(href='#all_time', data-prop='round-the-clock')
+						i.icon_round_the_clock
+						span.link_dotted Круглосуточные
+			.col-xs-6.col-xs-12.padding-right-0.shop_menu_spb
+				.shops_search_header_city_filters
+					a.simple_green_btn(href='#spb', data-prop='general') Показать все
+					a.filter_btn_i(href='#spb_all_time', data-prop='round-the-clock')
+						i.icon_round_the_clock
+						span.link_dotted Круглосуточные
+		.row
+			.col-xs-12.padding-right-0.shop_menu_msk
+				.shops_search_header_city_filters
+					a.filter_btn_i(href='#msk_azbuka', data-prop='azbuka', data-block-button='msk_azbuka')
+						i.icon_azbuka
+						span.link_dotted Азбука Вкуса
+					a.filter_btn_i(href='#msk_av-enoteca', data-prop='av-enoteca')
+						i.icon_enoteca
+						span.link_dotted Энотеки АВ
+					a.filter_btn_i(href='#msk_av-daily', data-prop='av-daily', data-block-button='msk_av-daily')
+						i.icon_av_daily
+						span.link_dotted АВ Daily
+					a.filter_btn_i(href='#msk_av-market', data-prop='av-market', data-block-button='msk_av-market')
+						i.icon_av_market
+						span.link_dotted АВ Маркет
+			.col-xs-12.padding-right-0.shop_menu_spb
+				.shops_search_header_city_filters
+					a.filter_btn_i(href='#spb_azbuka', data-prop='azbuka')
+						i.icon_azbuka
+						span.link_dotted Азбука Вкуса
+					a.filter_btn_i(href='#spb_av-enoteca', data-prop='av-enoteca')
+						i.icon_enoteca
+						span.link_dotted Энотеки АВ
+	.shops_search_map
+		.shops_search_map_cont.top
+			script(src='http://api-maps.yandex.ru/2.0/?load=package.full&mode=release&lang=ru-RU', type='text/javascript')
+			script(type='text/javascript', src='/templates/av/js/shop.js?rev=65')
+			#all_shops_map(data-yamap='yamap_shop_search', style='width:100%; height:100%', data-from='/shops/shop_list_json/', data-input='search_submit_input')
+		.shops_search_map_menu.top.shop_menu_msk
+			ul.shops_menu.general
+				li: a.shops_menu_item.link_dotted(shop-id='198452', href='/shops/alabyana_7/') Алабяна, д. 7
+				li: a.shops_menu_item.link_dotted(shop-id='277042', href='/shops/bakuninskaya-d-26/') Бакунинская, д. 26
+				li: a.shops_menu_item.link_dotted(shop-id='198493', href='/shops/barviha_dc_dream_house/') Барвиха, ТЦ «Dream House»
+				li: a.shops_menu_item.link_dotted(shop-id='198460', href='/shops/bol_shaya_gruzinskaya_42/') Большая Грузинская, д. 42
+				li: a.shops_menu_item.link_dotted(shop-id='198464', href='/shops/bol_shaya_dorogomilovskaya_d_16/') Большая Дорогомиловская, д. 16
+				li: a.shops_menu_item.link_dotted(shop-id='198465', href='/shops/bol_shaya_tul_skaya_d_13_tc_erevan_plaza/') Большая Тульская д. 13,  ТЦ «Ереван Плаза»
+				li: a.shops_menu_item.link_dotted(shop-id='198448', href='/shops/bol_shaya_yakimanka_32/') Большая Якиманка, д. 32
+				li: a.shops_menu_item.link_dotted(shop-id='208013', href='/shops/butyrskij_val_10/') Бутырский вал, д. 10
+				li: a.shops_menu_item.link_dotted(shop-id='198466', href='/shops/valovaya_d_8_18/') Валовая, д. 8/18
+				li: a.shops_menu_item.link_dotted(shop-id='198491', href='/shops/varshavskoe_shosse_d_34/') Варшавское шоссе, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='198500', href='/shops/gorki-2_tc_zhivoj_dom/') Горки-2, д. 11, ТЦ «Живой Дом»
+				li: a.shops_menu_item.link_dotted(shop-id='198463', href='/shops/grizodubovoj_1a/') Гризодубовой, д. 1А
+				li: a.shops_menu_item.link_dotted(shop-id='198506', href='/shops/dmitrovskoe_shosse_17-j_km_tc_kashtanovaya_rowa/') Дмитровское шоссе, 17-й км, ТЦ «Каштановая роща»
+				li: a.shops_menu_item.link_dotted(shop-id='198453', href='/shops/dmitrovskoe_shosse_108/') Дмитровское шоссе, д. 108
+				li: a.shops_menu_item.link_dotted(shop-id='208168', href='/shops/zhukovka-rublevo-uspenskoe-shosse-201/') Жуковка, Рублево-Успенское шоссе, 201, ТЦ «Жуковка Плаза»
+				li: a.shops_menu_item.link_dotted(shop-id='203033', href='/shops/zhulebinskij_bulvar_d_16/') Жулебинский бульвар, д. 16
+				li: a.shops_menu_item.link_dotted(shop-id='198494', href='/shops/pos_novoivanovskoe_tc_skver/') Западная, д. 11, пос. Новоивановское, ТЦ «Сквер»
+				li: a.shops_menu_item.link_dotted(shop-id='213938', href='/shops/zelenograd-moskovskij-prospekt-d-514/') Зеленоград, Московский проспект, корп. 514 стр.1
+				li: a.shops_menu_item.link_dotted(shop-id='290762', href='/shops/isakovskogo-d-33-tc-ibiza/') Исаковского, д. 33 ТЦ «IBIZA»
+				li: a.shops_menu_item.link_dotted(shop-id='198467', href='/shops/kaluzhskaya_plowad_d_1_str_2/') Калужская площадь, д. 1, стр. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198488', href='/shops/kaluzhskoe_shosse_1-j_km_tc_slavyanskij_grad/') Калужское шоссе, 1-й км, ТЦ «Славянский град»
+				li: a.shops_menu_item.link_dotted(shop-id='198468', href='/shops/kashirskoe_shosse_d_78_korp_1a/') Каширское шоссе, д.78, корп. 1А
+				li: a.shops_menu_item.link_dotted(shop-id='198504', href='/shops/kievskoe_shosse_der_lapshinka_vl_8/') Киевское шоссе, дер. Лапшинка, вл. 8, ТЦ «Vnukovo Outlet Village»
+				li: a.shops_menu_item.link_dotted(shop-id='198469', href='/shops/komsomol_skij_prospekt_d_34/') Комсомольский проспект, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='200078', href='/shops/komsomolskij_34/') Комсомольский проспект, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='198470', href='/shops/komsomol_skij_prospekt_d_4/') Комсомольский проспект, д. 4
+				li: a.shops_menu_item.link_dotted(shop-id='201502', href='/shops/korolev_kosmonavtov_d4/') Королев, пр. Космонавтов, д. 4B
+				li: a.shops_menu_item.link_dotted(shop-id='267631', href='/shops/krasnaya-presnya-d-14/') Красная Пресня, д. 14
+				li: a.shops_menu_item.link_dotted(shop-id='198445', href='/shops/krasnogorsk_lenina_35a/') Красногорск, ул. Ленина, д. 35А
+				li: a.shops_menu_item.link_dotted(shop-id='198471', href='/shops/kutuzovskij_prospekt_d_8/') Кутузовский проспект, д. 8
+				li: a.shops_menu_item.link_dotted(shop-id='200079', href='/shops/kutuzovskij_d18/') Кутузовский проспект, д.18
+				li: a.shops_menu_item.link_dotted(shop-id='198472', href='/shops/leningradskij_prospekt_d_52/') Ленинградский проспект, д. 52
+				li: a.shops_menu_item.link_dotted(shop-id='198458', href='/shops/leningradskoe_shosse_46/') Ленинградское шоссе, д. 46
+				li: a.shops_menu_item.link_dotted(shop-id='200080', href='/shops/leninskij_d16/') Ленинский  проспект, д.16
+				li: a.shops_menu_item.link_dotted(shop-id='208388', href='/shops/leninskij_prospekt_21/') Ленинский проспект, д. 21
+				li: a.shops_menu_item.link_dotted(shop-id='198461', href='/shops/leninskij_prospekt_34/') Ленинский проспект, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='208430', href='/shops/leninskij-prospekt-d-54/') Ленинский проспект, д. 54
+				li: a.shops_menu_item.link_dotted(shop-id='198489', href='/shops/leninskij_prospekt_64/') Ленинский проспект, д. 64
+				li: a.shops_menu_item.link_dotted(shop-id='283820', href='/shops/leninskij-prospekt-d-82/') Ленинский проспект, д. 82
+				li: a.shops_menu_item.link_dotted(shop-id='208185', href='/shops/leninskom-prospekt-d-91/') Ленинский проспект, д. 91
+				li: a.shops_menu_item.link_dotted(shop-id='286506', href='/shops/lermontovskij-prospekt-d-2/') Лермонтовский проспект, д. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198454', href='/shops/lyusinovskaya_60/') Люсиновская, д. 60
+				li: a.shops_menu_item.link_dotted(shop-id='198456', href='/shops/marshala_zhukova_41/') Маршала Жукова, д. 41
+				li: a.shops_menu_item.link_dotted(shop-id='198474', href='/shops/michurinskij_prospekt_d_22_1/') Мичуринский проспект, д. 22/1
+				li: a.shops_menu_item.link_dotted(shop-id='198507', href='/shops/michurinskij_prospekt_58/') Мичуринский проспект, д. 58, стр.1
+				li: a.shops_menu_item.link_dotted(shop-id='254921', href='/shops/zarechnaya-d-2/') МО, поселок Заречье, ул. Заречная д. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198475', href='/shops/mozhajskoe_shosse_d_32/') Можайское шоссе, д. 32
+				li: a.shops_menu_item.link_dotted(shop-id='198505', href='/shops/mytiwi_ul_kommunisticheskaya_dom_10/') Мытищи, ул. Коммунистическая, д. 10
+				li: a.shops_menu_item.link_dotted(shop-id='198476', href='/shops/nahimovskij_prospekt_d_61/') Нахимовский проспект, д. 61
+				li: a.shops_menu_item.link_dotted(shop-id='220286', href='/shops/nizhegorodskaya_16/') Нижегородская, д.16
+				li: a.shops_menu_item.link_dotted(shop-id='198455', href='/shops/nikoloyamskij_pereulok_2/') Николоямский переулок, д. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198477', href='/shops/novinskij_bul_var_d_8_tc_lotte_plaza/') Новинский бульвар, д. 8, ТЦ «Lotte Plaza»
+				li: a.shops_menu_item.link_dotted(shop-id='254340', href='/shops/novokuzneckaya-d-1-str-3/') Новокузнецкая, д. 1. стр. 3
+				li: a.shops_menu_item.link_dotted(shop-id='198501', href='/shops/novorizhskoe_shosse_6-j_km/') Новорижское шоссе, 6-й км, ТК «ЮНИМОЛЛ»
+				li: a.shops_menu_item.link_dotted(shop-id='198502', href='/shops/odincovo_mozhajskoe_shosse_d_133a/') Одинцово, Можайское шоссе, д. 133А, ТЦ «Вестор»
+				li: a.shops_menu_item.link_dotted(shop-id='266437', href='/shops/odincovo-ul-govorova-163-tc-atlas/') Одинцово, ул. Говорова, 163, ТЦ «Атлас»
+				li: a.shops_menu_item.link_dotted(shop-id='198495', href='/shops/ostashkovskoe_shosse_59/') Осташковское шоссе, д. 59
+				li: a.shops_menu_item.link_dotted(shop-id='198478', href='/shops/ostrovityanova_d_2_tc_azbuka_vkusa/') Островитянова, д. 2, ТЦ «Азбука Вкуса»
+				li: a.shops_menu_item.link_dotted(shop-id='198479', href='/shops/petrovka_d_19_korp_1/') Петровка, д. 19, корп. 1
+				li: a.shops_menu_item.link_dotted(shop-id='198462', href='/shops/pokryshkina_4/') Покрышкина, д. 4
+				li: a.shops_menu_item.link_dotted(shop-id='198451', href='/shops/prospekt_vernadskogo_14a/') Проспект Вернадского, д. 14А
+				li: a.shops_menu_item.link_dotted(shop-id='303057', href='/shops/prospekt-mira-d-49/') Проспект Мира, д. 49
+				li: a.shops_menu_item.link_dotted(shop-id='198480', href='/shops/prospekt_mira_d_58/') Проспект Мира, д. 58
+				li: a.shops_menu_item.link_dotted(shop-id='198481', href='/shops/prospekt_mira_d_97/') Проспект Мира, д. 97
+				li: a.shops_menu_item.link_dotted(shop-id='198496', href='/shops/protochnyj_pereulok_11/') Проточный переулок, д. 11
+				li: a.shops_menu_item.link_dotted(shop-id='198457', href='/shops/profsoyuznaya_16_10/') Профсоюзная, д. 16/10
+				li: a.shops_menu_item.link_dotted(shop-id='204390', href='/shops/profsoyuznaya-64/') Профсоюзная, д. 64/66
+				li: a.shops_menu_item.link_dotted(shop-id='198723', href='/shops/pyatnickoe_sh_6_km/') Пятницкое шоссе, 6 км от МКАД, Марьино-Знаменское
+				li: a.shops_menu_item.link_dotted(shop-id='198482', href='/shops/pyatnickoe_shosse_d_14/') Пятницкое шоссе, д. 14
+				li: a.shops_menu_item.link_dotted(shop-id='204411', href='/shops/rublevskoe-sh-d42/') Рублевское шоссе, д. 42 к.1, ТЦ «ZAR»
+				li: a.shops_menu_item.link_dotted(shop-id='198459', href='/shops/rusakovskaya_22/') Русаковская, д. 22
+				li: a.shops_menu_item.link_dotted(shop-id='198483', href='/shops/sadovaya-triumfalnaya-22/') Садовая-Триумфальная, д. 22/31, стр. 1
+				li: a.shops_menu_item.link_dotted(shop-id='198484', href='/shops/sadovaya-chernogryazskaya_d_13_3/') Садовая-Черногрязская, д. 13/3
+				li: a.shops_menu_item.link_dotted(shop-id='198446', href='/shops/svobody_42/') Свободы, д. 42
+				li: a.shops_menu_item.link_dotted(shop-id='198497', href='/shops/simferopol_skij_bul_var_22/') Симферопольский бульвар, д. 22
+				li: a.shops_menu_item.link_dotted(shop-id='198485', href='/shops/staraya_basmannaya_d_28_2/') Старая Басманная, д. 28/2
+				li: a.shops_menu_item.link_dotted(shop-id='266431', href='/shops/stupino-prospekt-pobedy-63a-tc-kurs/') Ступино, проспект Победы, 63а, ТЦ «Курс»
+				li: a.shops_menu_item.link_dotted(shop-id='198449', href='/shops/taganskaya_plowad_12_4/') Таганская площадь, д. 12/4
+				li: a.shops_menu_item.link_dotted(shop-id='198486', href='/shops/tverskaya-yamskaya_2-ya_d_54/') Тверская-Ямская 2-я, д. 54
+				li: a.shops_menu_item.link_dotted(shop-id='283833', href='/shops/teatralnyj-proezd-d-5-korp-1/') Театральный проезд, д. 5, корп. 1
+				li: a.shops_menu_item.link_dotted(shop-id='198487', href='/shops/trubnaya_plowad_d_2_tc_neglinnaya_plaza/') Трубная площадь, д. 2, ТЦ «Неглинная Плаза»
+				li: a.shops_menu_item.link_dotted(shop-id='198447', href='/shops/himki_leningradskaya_16b/') Химки, ул. Ленинградская, д. 16Б
+				li: a.shops_menu_item.link_dotted(shop-id='198503', href='/shops/himki_ul_molodezhnaya_6/') Химки, ул. Молодежная, д. 6
+				li: a.shops_menu_item.link_dotted(shop-id='270308', href='/shops/cvetnoj-bulvar-d25/') Цветной бульвар, д. 25
+				li: a.shops_menu_item.link_dotted(shop-id='198450', href='/shops/chayanova_14_10/') Чаянова, д. 14/10
+				li.last_shop
+					a.shops_menu_item.link_dotted(shop-id='198444', href='/shops/yaroslavskoe_shosse_12/') Ярославское шоссе, д. 12
+			ul.shops_menu.enoteca.display_none
+				li: a.shops_menu_item.link_dotted(shop-id='200078', href='/shops/komsomolskij_34/') Комсомольский проспект, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='200079', href='/shops/kutuzovskij_d18/') Кутузовский проспект, д.18
+				li.last_shop
+					a.shops_menu_item.link_dotted(shop-id='200080', href='/shops/leninskij_d16/') Ленинский  проспект, д.16
+			ul.shops_menu.round-the-clock.display_none
+				li: a.shops_menu_item.link_dotted(shop-id='198452', href='/shops/alabyana_7/') Алабяна, д. 7
+				li: a.shops_menu_item.link_dotted(shop-id='277042', href='/shops/bakuninskaya-d-26/') Бакунинская, д. 26
+				li: a.shops_menu_item.link_dotted(shop-id='198493', href='/shops/barviha_dc_dream_house/') Барвиха, ТЦ «Dream House»
+				li: a.shops_menu_item.link_dotted(shop-id='198460', href='/shops/bol_shaya_gruzinskaya_42/') Большая Грузинская, д. 42
+				li: a.shops_menu_item.link_dotted(shop-id='198464', href='/shops/bol_shaya_dorogomilovskaya_d_16/') Большая Дорогомиловская, д. 16
+				li: a.shops_menu_item.link_dotted(shop-id='198465', href='/shops/bol_shaya_tul_skaya_d_13_tc_erevan_plaza/') Большая Тульская д. 13,  ТЦ «Ереван Плаза»
+				li: a.shops_menu_item.link_dotted(shop-id='198448', href='/shops/bol_shaya_yakimanka_32/') Большая Якиманка, д. 32
+				li: a.shops_menu_item.link_dotted(shop-id='198466', href='/shops/valovaya_d_8_18/') Валовая, д. 8/18
+				li: a.shops_menu_item.link_dotted(shop-id='198500', href='/shops/gorki-2_tc_zhivoj_dom/') Горки-2, д. 11, ТЦ «Живой Дом»
+				li: a.shops_menu_item.link_dotted(shop-id='198463', href='/shops/grizodubovoj_1a/') Гризодубовой, д. 1А
+				li: a.shops_menu_item.link_dotted(shop-id='198506', href='/shops/dmitrovskoe_shosse_17-j_km_tc_kashtanovaya_rowa/') Дмитровское шоссе, 17-й км, ТЦ «Каштановая роща»
+				li: a.shops_menu_item.link_dotted(shop-id='198453', href='/shops/dmitrovskoe_shosse_108/') Дмитровское шоссе, д. 108
+				li: a.shops_menu_item.link_dotted(shop-id='208168', href='/shops/zhukovka-rublevo-uspenskoe-shosse-201/') Жуковка, Рублево-Успенское шоссе, 201, ТЦ «Жуковка Плаза»
+				li: a.shops_menu_item.link_dotted(shop-id='203033', href='/shops/zhulebinskij_bulvar_d_16/') Жулебинский бульвар, д. 16
+				li: a.shops_menu_item.link_dotted(shop-id='290762', href='/shops/isakovskogo-d-33-tc-ibiza/') Исаковского, д. 33 ТЦ «IBIZA»
+				li: a.shops_menu_item.link_dotted(shop-id='198488', href='/shops/kaluzhskoe_shosse_1-j_km_tc_slavyanskij_grad/') Калужское шоссе, 1-й км, ТЦ «Славянский град»
+				li: a.shops_menu_item.link_dotted(shop-id='198468', href='/shops/kashirskoe_shosse_d_78_korp_1a/') Каширское шоссе, д.78, корп. 1А
+				li: a.shops_menu_item.link_dotted(shop-id='198504', href='/shops/kievskoe_shosse_der_lapshinka_vl_8/') Киевское шоссе, дер. Лапшинка, вл. 8, ТЦ «Vnukovo Outlet Village»
+				li: a.shops_menu_item.link_dotted(shop-id='198469', href='/shops/komsomol_skij_prospekt_d_34/') Комсомольский проспект, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='198470', href='/shops/komsomol_skij_prospekt_d_4/') Комсомольский проспект, д. 4
+				li: a.shops_menu_item.link_dotted(shop-id='267631', href='/shops/krasnaya-presnya-d-14/') Красная Пресня, д. 14
+				li: a.shops_menu_item.link_dotted(shop-id='198445', href='/shops/krasnogorsk_lenina_35a/') Красногорск, ул. Ленина, д. 35А
+				li: a.shops_menu_item.link_dotted(shop-id='198471', href='/shops/kutuzovskij_prospekt_d_8/') Кутузовский проспект, д. 8
+				li: a.shops_menu_item.link_dotted(shop-id='198472', href='/shops/leningradskij_prospekt_d_52/') Ленинградский проспект, д. 52
+				li: a.shops_menu_item.link_dotted(shop-id='198458', href='/shops/leningradskoe_shosse_46/') Ленинградское шоссе, д. 46
+				li: a.shops_menu_item.link_dotted(shop-id='208388', href='/shops/leninskij_prospekt_21/') Ленинский проспект, д. 21
+				li: a.shops_menu_item.link_dotted(shop-id='198461', href='/shops/leninskij_prospekt_34/') Ленинский проспект, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='198489', href='/shops/leninskij_prospekt_64/') Ленинский проспект, д. 64
+				li: a.shops_menu_item.link_dotted(shop-id='286506', href='/shops/lermontovskij-prospekt-d-2/') Лермонтовский проспект, д. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198454', href='/shops/lyusinovskaya_60/') Люсиновская, д. 60
+				li: a.shops_menu_item.link_dotted(shop-id='198456', href='/shops/marshala_zhukova_41/') Маршала Жукова, д. 41
+				li: a.shops_menu_item.link_dotted(shop-id='198474', href='/shops/michurinskij_prospekt_d_22_1/') Мичуринский проспект, д. 22/1
+				li: a.shops_menu_item.link_dotted(shop-id='254921', href='/shops/zarechnaya-d-2/') МО, поселок Заречье, ул. Заречная д. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198475', href='/shops/mozhajskoe_shosse_d_32/') Можайское шоссе, д. 32
+				li: a.shops_menu_item.link_dotted(shop-id='198505', href='/shops/mytiwi_ul_kommunisticheskaya_dom_10/') Мытищи, ул. Коммунистическая, д. 10
+				li: a.shops_menu_item.link_dotted(shop-id='198476', href='/shops/nahimovskij_prospekt_d_61/') Нахимовский проспект, д. 61
+				li: a.shops_menu_item.link_dotted(shop-id='198455', href='/shops/nikoloyamskij_pereulok_2/') Николоямский переулок, д. 2
+				li: a.shops_menu_item.link_dotted(shop-id='254340', href='/shops/novokuzneckaya-d-1-str-3/') Новокузнецкая, д. 1. стр. 3
+				li: a.shops_menu_item.link_dotted(shop-id='198501', href='/shops/novorizhskoe_shosse_6-j_km/') Новорижское шоссе, 6-й км, ТК «ЮНИМОЛЛ»
+				li: a.shops_menu_item.link_dotted(shop-id='198495', href='/shops/ostashkovskoe_shosse_59/') Осташковское шоссе, д. 59
+				li: a.shops_menu_item.link_dotted(shop-id='198478', href='/shops/ostrovityanova_d_2_tc_azbuka_vkusa/') Островитянова, д. 2, ТЦ «Азбука Вкуса»
+				li: a.shops_menu_item.link_dotted(shop-id='198451', href='/shops/prospekt_vernadskogo_14a/') Проспект Вернадского, д. 14А
+				li: a.shops_menu_item.link_dotted(shop-id='198480', href='/shops/prospekt_mira_d_58/') Проспект Мира, д. 58
+				li: a.shops_menu_item.link_dotted(shop-id='198481', href='/shops/prospekt_mira_d_97/') Проспект Мира, д. 97
+				li: a.shops_menu_item.link_dotted(shop-id='198496', href='/shops/protochnyj_pereulok_11/') Проточный переулок, д. 11
+				li: a.shops_menu_item.link_dotted(shop-id='198457', href='/shops/profsoyuznaya_16_10/') Профсоюзная, д. 16/10
+				li: a.shops_menu_item.link_dotted(shop-id='198482', href='/shops/pyatnickoe_shosse_d_14/') Пятницкое шоссе, д. 14
+				li: a.shops_menu_item.link_dotted(shop-id='204411', href='/shops/rublevskoe-sh-d42/') Рублевское шоссе, д. 42 к.1, ТЦ «ZAR»
+				li: a.shops_menu_item.link_dotted(shop-id='198459', href='/shops/rusakovskaya_22/') Русаковская, д. 22
+				li: a.shops_menu_item.link_dotted(shop-id='198483', href='/shops/sadovaya-triumfalnaya-22/') Садовая-Триумфальная, д. 22/31, стр. 1
+				li: a.shops_menu_item.link_dotted(shop-id='198484', href='/shops/sadovaya-chernogryazskaya_d_13_3/') Садовая-Черногрязская, д. 13/3
+				li: a.shops_menu_item.link_dotted(shop-id='198497', href='/shops/simferopol_skij_bul_var_22/') Симферопольский бульвар, д. 22
+				li: a.shops_menu_item.link_dotted(shop-id='198449', href='/shops/taganskaya_plowad_12_4/') Таганская площадь, д. 12/4
+				li: a.shops_menu_item.link_dotted(shop-id='198486', href='/shops/tverskaya-yamskaya_2-ya_d_54/') Тверская-Ямская 2-я, д. 54
+				li: a.shops_menu_item.link_dotted(shop-id='198487', href='/shops/trubnaya_plowad_d_2_tc_neglinnaya_plaza/') Трубная площадь, д. 2, ТЦ «Неглинная Плаза»
+				li: a.shops_menu_item.link_dotted(shop-id='198447', href='/shops/himki_leningradskaya_16b/') Химки, ул. Ленинградская, д. 16Б
+				li: a.shops_menu_item.link_dotted(shop-id='198503', href='/shops/himki_ul_molodezhnaya_6/') Химки, ул. Молодежная, д. 6
+				li.last_shop
+					a.shops_menu_item.link_dotted(shop-id='198450', href='/shops/chayanova_14_10/') Чаянова, д. 14/10
+			ul.shops_menu.av-daily.display_none
+				li: a.shops_menu_item.link_dotted(shop-id='208013', href='/shops/butyrskij_val_10/') Бутырский вал, д. 10
+				li: a.shops_menu_item.link_dotted(shop-id='283820', href='/shops/leninskij-prospekt-d-82/') Ленинский проспект, д. 82
+				li: a.shops_menu_item.link_dotted(shop-id='208185', href='/shops/leninskom-prospekt-d-91/') Ленинский проспект, д. 91
+				li: a.shops_menu_item.link_dotted(shop-id='254340', href='/shops/novokuzneckaya-d-1-str-3/') Новокузнецкая, д. 1. стр. 3
+				li: a.shops_menu_item.link_dotted(shop-id='303057', href='/shops/prospekt-mira-d-49/') Проспект Мира, д. 49
+				li.last_shop
+					a.shops_menu_item.link_dotted(shop-id='270308', href='/shops/cvetnoj-bulvar-d25/') Цветной бульвар, д. 25
+			ul.shops_menu.av-market.display_none
+				li: a.shops_menu_item.link_dotted(shop-id='266437', href='/shops/odincovo-ul-govorova-163-tc-atlas/') Одинцово, ул. Говорова, 163, ТЦ «Атлас»
+				li.last_shop
+					a.shops_menu_item.link_dotted(shop-id='266431', href='/shops/stupino-prospekt-pobedy-63a-tc-kurs/') Ступино, проспект Победы, 63а, ТЦ «Курс»
+			ul.shops_menu.azbuka.display_none
+				li: a.shops_menu_item.link_dotted(shop-id='198452', href='/shops/alabyana_7/') Алабяна, д. 7
+				li: a.shops_menu_item.link_dotted(shop-id='277042', href='/shops/bakuninskaya-d-26/') Бакунинская, д. 26
+				li: a.shops_menu_item.link_dotted(shop-id='198493', href='/shops/barviha_dc_dream_house/') Барвиха, ТЦ «Dream House»
+				li: a.shops_menu_item.link_dotted(shop-id='198460', href='/shops/bol_shaya_gruzinskaya_42/') Большая Грузинская, д. 42
+				li: a.shops_menu_item.link_dotted(shop-id='198464', href='/shops/bol_shaya_dorogomilovskaya_d_16/') Большая Дорогомиловская, д. 16
+				li: a.shops_menu_item.link_dotted(shop-id='198465', href='/shops/bol_shaya_tul_skaya_d_13_tc_erevan_plaza/') Большая Тульская д. 13,  ТЦ «Ереван Плаза»
+				li: a.shops_menu_item.link_dotted(shop-id='198448', href='/shops/bol_shaya_yakimanka_32/') Большая Якиманка, д. 32
+				li: a.shops_menu_item.link_dotted(shop-id='198466', href='/shops/valovaya_d_8_18/') Валовая, д. 8/18
+				li: a.shops_menu_item.link_dotted(shop-id='198491', href='/shops/varshavskoe_shosse_d_34/') Варшавское шоссе, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='198500', href='/shops/gorki-2_tc_zhivoj_dom/') Горки-2, д. 11, ТЦ «Живой Дом»
+				li: a.shops_menu_item.link_dotted(shop-id='198463', href='/shops/grizodubovoj_1a/') Гризодубовой, д. 1А
+				li: a.shops_menu_item.link_dotted(shop-id='198506', href='/shops/dmitrovskoe_shosse_17-j_km_tc_kashtanovaya_rowa/') Дмитровское шоссе, 17-й км, ТЦ «Каштановая роща»
+				li: a.shops_menu_item.link_dotted(shop-id='198453', href='/shops/dmitrovskoe_shosse_108/') Дмитровское шоссе, д. 108
+				li: a.shops_menu_item.link_dotted(shop-id='208168', href='/shops/zhukovka-rublevo-uspenskoe-shosse-201/') Жуковка, Рублево-Успенское шоссе, 201, ТЦ «Жуковка Плаза»
+				li: a.shops_menu_item.link_dotted(shop-id='203033', href='/shops/zhulebinskij_bulvar_d_16/') Жулебинский бульвар, д. 16
+				li: a.shops_menu_item.link_dotted(shop-id='198494', href='/shops/pos_novoivanovskoe_tc_skver/') Западная, д. 11, пос. Новоивановское, ТЦ «Сквер»
+				li: a.shops_menu_item.link_dotted(shop-id='213938', href='/shops/zelenograd-moskovskij-prospekt-d-514/') Зеленоград, Московский проспект, корп. 514 стр.1
+				li: a.shops_menu_item.link_dotted(shop-id='290762', href='/shops/isakovskogo-d-33-tc-ibiza/') Исаковского, д. 33 ТЦ «IBIZA»
+				li: a.shops_menu_item.link_dotted(shop-id='198467', href='/shops/kaluzhskaya_plowad_d_1_str_2/') Калужская площадь, д. 1, стр. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198488', href='/shops/kaluzhskoe_shosse_1-j_km_tc_slavyanskij_grad/') Калужское шоссе, 1-й км, ТЦ «Славянский град»
+				li: a.shops_menu_item.link_dotted(shop-id='198468', href='/shops/kashirskoe_shosse_d_78_korp_1a/') Каширское шоссе, д.78, корп. 1А
+				li: a.shops_menu_item.link_dotted(shop-id='198504', href='/shops/kievskoe_shosse_der_lapshinka_vl_8/') Киевское шоссе, дер. Лапшинка, вл. 8, ТЦ «Vnukovo Outlet Village»
+				li: a.shops_menu_item.link_dotted(shop-id='198469', href='/shops/komsomol_skij_prospekt_d_34/') Комсомольский проспект, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='198470', href='/shops/komsomol_skij_prospekt_d_4/') Комсомольский проспект, д. 4
+				li: a.shops_menu_item.link_dotted(shop-id='201502', href='/shops/korolev_kosmonavtov_d4/') Королев, пр. Космонавтов, д. 4B
+				li: a.shops_menu_item.link_dotted(shop-id='267631', href='/shops/krasnaya-presnya-d-14/') Красная Пресня, д. 14
+				li: a.shops_menu_item.link_dotted(shop-id='198445', href='/shops/krasnogorsk_lenina_35a/') Красногорск, ул. Ленина, д. 35А
+				li: a.shops_menu_item.link_dotted(shop-id='198471', href='/shops/kutuzovskij_prospekt_d_8/') Кутузовский проспект, д. 8
+				li: a.shops_menu_item.link_dotted(shop-id='198472', href='/shops/leningradskij_prospekt_d_52/') Ленинградский проспект, д. 52
+				li: a.shops_menu_item.link_dotted(shop-id='198458', href='/shops/leningradskoe_shosse_46/') Ленинградское шоссе, д. 46
+				li: a.shops_menu_item.link_dotted(shop-id='208388', href='/shops/leninskij_prospekt_21/') Ленинский проспект, д. 21
+				li: a.shops_menu_item.link_dotted(shop-id='198461', href='/shops/leninskij_prospekt_34/') Ленинский проспект, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='208430', href='/shops/leninskij-prospekt-d-54/') Ленинский проспект, д. 54
+				li: a.shops_menu_item.link_dotted(shop-id='198489', href='/shops/leninskij_prospekt_64/') Ленинский проспект, д. 64
+				li: a.shops_menu_item.link_dotted(shop-id='286506', href='/shops/lermontovskij-prospekt-d-2/') Лермонтовский проспект, д. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198454', href='/shops/lyusinovskaya_60/') Люсиновская, д. 60
+				li: a.shops_menu_item.link_dotted(shop-id='198456', href='/shops/marshala_zhukova_41/') Маршала Жукова, д. 41
+				li: a.shops_menu_item.link_dotted(shop-id='198474', href='/shops/michurinskij_prospekt_d_22_1/') Мичуринский проспект, д. 22/1
+				li: a.shops_menu_item.link_dotted(shop-id='198507', href='/shops/michurinskij_prospekt_58/') Мичуринский проспект, д. 58, стр.1
+				li: a.shops_menu_item.link_dotted(shop-id='254921', href='/shops/zarechnaya-d-2/') МО, поселок Заречье, ул. Заречная д. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198475', href='/shops/mozhajskoe_shosse_d_32/') Можайское шоссе, д. 32
+				li: a.shops_menu_item.link_dotted(shop-id='198505', href='/shops/mytiwi_ul_kommunisticheskaya_dom_10/') Мытищи, ул. Коммунистическая, д. 10
+				li: a.shops_menu_item.link_dotted(shop-id='198476', href='/shops/nahimovskij_prospekt_d_61/') Нахимовский проспект, д. 61
+				li: a.shops_menu_item.link_dotted(shop-id='220286', href='/shops/nizhegorodskaya_16/') Нижегородская, д.16
+				li: a.shops_menu_item.link_dotted(shop-id='198455', href='/shops/nikoloyamskij_pereulok_2/') Николоямский переулок, д. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198477', href='/shops/novinskij_bul_var_d_8_tc_lotte_plaza/') Новинский бульвар, д. 8, ТЦ «Lotte Plaza»
+				li: a.shops_menu_item.link_dotted(shop-id='198501', href='/shops/novorizhskoe_shosse_6-j_km/') Новорижское шоссе, 6-й км, ТК «ЮНИМОЛЛ»
+				li: a.shops_menu_item.link_dotted(shop-id='198502', href='/shops/odincovo_mozhajskoe_shosse_d_133a/') Одинцово, Можайское шоссе, д. 133А, ТЦ «Вестор»
+				li: a.shops_menu_item.link_dotted(shop-id='198495', href='/shops/ostashkovskoe_shosse_59/') Осташковское шоссе, д. 59
+				li: a.shops_menu_item.link_dotted(shop-id='198478', href='/shops/ostrovityanova_d_2_tc_azbuka_vkusa/') Островитянова, д. 2, ТЦ «Азбука Вкуса»
+				li: a.shops_menu_item.link_dotted(shop-id='198479', href='/shops/petrovka_d_19_korp_1/') Петровка, д. 19, корп. 1
+				li: a.shops_menu_item.link_dotted(shop-id='198462', href='/shops/pokryshkina_4/') Покрышкина, д. 4
+				li: a.shops_menu_item.link_dotted(shop-id='198451', href='/shops/prospekt_vernadskogo_14a/') Проспект Вернадского, д. 14А
+				li: a.shops_menu_item.link_dotted(shop-id='198480', href='/shops/prospekt_mira_d_58/') Проспект Мира, д. 58
+				li: a.shops_menu_item.link_dotted(shop-id='198481', href='/shops/prospekt_mira_d_97/') Проспект Мира, д. 97
+				li: a.shops_menu_item.link_dotted(shop-id='198496', href='/shops/protochnyj_pereulok_11/') Проточный переулок, д. 11
+				li: a.shops_menu_item.link_dotted(shop-id='198457', href='/shops/profsoyuznaya_16_10/') Профсоюзная, д. 16/10
+				li: a.shops_menu_item.link_dotted(shop-id='204390', href='/shops/profsoyuznaya-64/') Профсоюзная, д. 64/66
+				li: a.shops_menu_item.link_dotted(shop-id='198723', href='/shops/pyatnickoe_sh_6_km/') Пятницкое шоссе, 6 км от МКАД, Марьино-Знаменское
+				li: a.shops_menu_item.link_dotted(shop-id='198482', href='/shops/pyatnickoe_shosse_d_14/') Пятницкое шоссе, д. 14
+				li: a.shops_menu_item.link_dotted(shop-id='204411', href='/shops/rublevskoe-sh-d42/') Рублевское шоссе, д. 42 к.1, ТЦ «ZAR»
+				li: a.shops_menu_item.link_dotted(shop-id='198459', href='/shops/rusakovskaya_22/') Русаковская, д. 22
+				li: a.shops_menu_item.link_dotted(shop-id='198483', href='/shops/sadovaya-triumfalnaya-22/') Садовая-Триумфальная, д. 22/31, стр. 1
+				li: a.shops_menu_item.link_dotted(shop-id='198484', href='/shops/sadovaya-chernogryazskaya_d_13_3/') Садовая-Черногрязская, д. 13/3
+				li: a.shops_menu_item.link_dotted(shop-id='198446', href='/shops/svobody_42/') Свободы, д. 42
+				li: a.shops_menu_item.link_dotted(shop-id='198497', href='/shops/simferopol_skij_bul_var_22/') Симферопольский бульвар, д. 22
+				li: a.shops_menu_item.link_dotted(shop-id='198485', href='/shops/staraya_basmannaya_d_28_2/') Старая Басманная, д. 28/2
+				li: a.shops_menu_item.link_dotted(shop-id='198449', href='/shops/taganskaya_plowad_12_4/') Таганская площадь, д. 12/4
+				li: a.shops_menu_item.link_dotted(shop-id='198486', href='/shops/tverskaya-yamskaya_2-ya_d_54/') Тверская-Ямская 2-я, д. 54
+				li: a.shops_menu_item.link_dotted(shop-id='283833', href='/shops/teatralnyj-proezd-d-5-korp-1/') Театральный проезд, д. 5, корп. 1
+				li: a.shops_menu_item.link_dotted(shop-id='198487', href='/shops/trubnaya_plowad_d_2_tc_neglinnaya_plaza/') Трубная площадь, д. 2, ТЦ «Неглинная Плаза»
+				li: a.shops_menu_item.link_dotted(shop-id='198447', href='/shops/himki_leningradskaya_16b/') Химки, ул. Ленинградская, д. 16Б
+				li: a.shops_menu_item.link_dotted(shop-id='198503', href='/shops/himki_ul_molodezhnaya_6/') Химки, ул. Молодежная, д. 6
+				li: a.shops_menu_item.link_dotted(shop-id='198450', href='/shops/chayanova_14_10/') Чаянова, д. 14/10
+				li.last_shop
+					a.shops_menu_item.link_dotted(shop-id='198444', href='/shops/yaroslavskoe_shosse_12/') Ярославское шоссе, д. 12
+			ul.shops_menu.av-enoteca.display_none
+				li: a.shops_menu_item.link_dotted(shop-id='198452', href='/shops/alabyana_7/') Алабяна, д. 7
+				li: a.shops_menu_item.link_dotted(shop-id='277042', href='/shops/bakuninskaya-d-26/') Бакунинская, д. 26
+				li: a.shops_menu_item.link_dotted(shop-id='198493', href='/shops/barviha_dc_dream_house/') Барвиха, ТЦ «Dream House»
+				li: a.shops_menu_item.link_dotted(shop-id='198460', href='/shops/bol_shaya_gruzinskaya_42/') Большая Грузинская, д. 42
+				li: a.shops_menu_item.link_dotted(shop-id='198464', href='/shops/bol_shaya_dorogomilovskaya_d_16/') Большая Дорогомиловская, д. 16
+				li: a.shops_menu_item.link_dotted(shop-id='198465', href='/shops/bol_shaya_tul_skaya_d_13_tc_erevan_plaza/') Большая Тульская д. 13,  ТЦ «Ереван Плаза»
+				li: a.shops_menu_item.link_dotted(shop-id='198448', href='/shops/bol_shaya_yakimanka_32/') Большая Якиманка, д. 32
+				li: a.shops_menu_item.link_dotted(shop-id='198466', href='/shops/valovaya_d_8_18/') Валовая, д. 8/18
+				li: a.shops_menu_item.link_dotted(shop-id='198491', href='/shops/varshavskoe_shosse_d_34/') Варшавское шоссе, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='198500', href='/shops/gorki-2_tc_zhivoj_dom/') Горки-2, д. 11, ТЦ «Живой Дом»
+				li: a.shops_menu_item.link_dotted(shop-id='198463', href='/shops/grizodubovoj_1a/') Гризодубовой, д. 1А
+				li: a.shops_menu_item.link_dotted(shop-id='198506', href='/shops/dmitrovskoe_shosse_17-j_km_tc_kashtanovaya_rowa/') Дмитровское шоссе, 17-й км, ТЦ «Каштановая роща»
+				li: a.shops_menu_item.link_dotted(shop-id='198453', href='/shops/dmitrovskoe_shosse_108/') Дмитровское шоссе, д. 108
+				li: a.shops_menu_item.link_dotted(shop-id='208168', href='/shops/zhukovka-rublevo-uspenskoe-shosse-201/') Жуковка, Рублево-Успенское шоссе, 201, ТЦ «Жуковка Плаза»
+				li: a.shops_menu_item.link_dotted(shop-id='203033', href='/shops/zhulebinskij_bulvar_d_16/') Жулебинский бульвар, д. 16
+				li: a.shops_menu_item.link_dotted(shop-id='198494', href='/shops/pos_novoivanovskoe_tc_skver/') Западная, д. 11, пос. Новоивановское, ТЦ «Сквер»
+				li: a.shops_menu_item.link_dotted(shop-id='213938', href='/shops/zelenograd-moskovskij-prospekt-d-514/') Зеленоград, Московский проспект, корп. 514 стр.1
+				li: a.shops_menu_item.link_dotted(shop-id='290762', href='/shops/isakovskogo-d-33-tc-ibiza/') Исаковского, д. 33 ТЦ «IBIZA»
+				li: a.shops_menu_item.link_dotted(shop-id='198467', href='/shops/kaluzhskaya_plowad_d_1_str_2/') Калужская площадь, д. 1, стр. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198488', href='/shops/kaluzhskoe_shosse_1-j_km_tc_slavyanskij_grad/') Калужское шоссе, 1-й км, ТЦ «Славянский град»
+				li: a.shops_menu_item.link_dotted(shop-id='198468', href='/shops/kashirskoe_shosse_d_78_korp_1a/') Каширское шоссе, д.78, корп. 1А
+				li: a.shops_menu_item.link_dotted(shop-id='198504', href='/shops/kievskoe_shosse_der_lapshinka_vl_8/') Киевское шоссе, дер. Лапшинка, вл. 8, ТЦ «Vnukovo Outlet Village»
+				li: a.shops_menu_item.link_dotted(shop-id='198469', href='/shops/komsomol_skij_prospekt_d_34/') Комсомольский проспект, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='200078', href='/shops/komsomolskij_34/') Комсомольский проспект, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='198470', href='/shops/komsomol_skij_prospekt_d_4/') Комсомольский проспект, д. 4
+				li: a.shops_menu_item.link_dotted(shop-id='201502', href='/shops/korolev_kosmonavtov_d4/') Королев, пр. Космонавтов, д. 4B
+				li: a.shops_menu_item.link_dotted(shop-id='267631', href='/shops/krasnaya-presnya-d-14/') Красная Пресня, д. 14
+				li: a.shops_menu_item.link_dotted(shop-id='198445', href='/shops/krasnogorsk_lenina_35a/') Красногорск, ул. Ленина, д. 35А
+				li: a.shops_menu_item.link_dotted(shop-id='198471', href='/shops/kutuzovskij_prospekt_d_8/') Кутузовский проспект, д. 8
+				li: a.shops_menu_item.link_dotted(shop-id='200079', href='/shops/kutuzovskij_d18/') Кутузовский проспект, д.18
+				li: a.shops_menu_item.link_dotted(shop-id='198458', href='/shops/leningradskoe_shosse_46/') Ленинградское шоссе, д. 46
+				li: a.shops_menu_item.link_dotted(shop-id='200080', href='/shops/leninskij_d16/') Ленинский  проспект, д.16
+				li: a.shops_menu_item.link_dotted(shop-id='208388', href='/shops/leninskij_prospekt_21/') Ленинский проспект, д. 21
+				li: a.shops_menu_item.link_dotted(shop-id='198461', href='/shops/leninskij_prospekt_34/') Ленинский проспект, д. 34
+				li: a.shops_menu_item.link_dotted(shop-id='208430', href='/shops/leninskij-prospekt-d-54/') Ленинский проспект, д. 54
+				li: a.shops_menu_item.link_dotted(shop-id='198489', href='/shops/leninskij_prospekt_64/') Ленинский проспект, д. 64
+				li: a.shops_menu_item.link_dotted(shop-id='286506', href='/shops/lermontovskij-prospekt-d-2/') Лермонтовский проспект, д. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198454', href='/shops/lyusinovskaya_60/') Люсиновская, д. 60
+				li: a.shops_menu_item.link_dotted(shop-id='198456', href='/shops/marshala_zhukova_41/') Маршала Жукова, д. 41
+				li: a.shops_menu_item.link_dotted(shop-id='198474', href='/shops/michurinskij_prospekt_d_22_1/') Мичуринский проспект, д. 22/1
+				li: a.shops_menu_item.link_dotted(shop-id='198507', href='/shops/michurinskij_prospekt_58/') Мичуринский проспект, д. 58, стр.1
+				li: a.shops_menu_item.link_dotted(shop-id='254921', href='/shops/zarechnaya-d-2/') МО, поселок Заречье, ул. Заречная д. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198475', href='/shops/mozhajskoe_shosse_d_32/') Можайское шоссе, д. 32
+				li: a.shops_menu_item.link_dotted(shop-id='198505', href='/shops/mytiwi_ul_kommunisticheskaya_dom_10/') Мытищи, ул. Коммунистическая, д. 10
+				li: a.shops_menu_item.link_dotted(shop-id='198476', href='/shops/nahimovskij_prospekt_d_61/') Нахимовский проспект, д. 61
+				li: a.shops_menu_item.link_dotted(shop-id='220286', href='/shops/nizhegorodskaya_16/') Нижегородская, д.16
+				li: a.shops_menu_item.link_dotted(shop-id='198455', href='/shops/nikoloyamskij_pereulok_2/') Николоямский переулок, д. 2
+				li: a.shops_menu_item.link_dotted(shop-id='198477', href='/shops/novinskij_bul_var_d_8_tc_lotte_plaza/') Новинский бульвар, д. 8, ТЦ «Lotte Plaza»
+				li: a.shops_menu_item.link_dotted(shop-id='198501', href='/shops/novorizhskoe_shosse_6-j_km/') Новорижское шоссе, 6-й км, ТК «ЮНИМОЛЛ»
+				li: a.shops_menu_item.link_dotted(shop-id='198502', href='/shops/odincovo_mozhajskoe_shosse_d_133a/') Одинцово, Можайское шоссе, д. 133А, ТЦ «Вестор»
+				li: a.shops_menu_item.link_dotted(shop-id='198495', href='/shops/ostashkovskoe_shosse_59/') Осташковское шоссе, д. 59
+				li: a.shops_menu_item.link_dotted(shop-id='198478', href='/shops/ostrovityanova_d_2_tc_azbuka_vkusa/') Островитянова, д. 2, ТЦ «Азбука Вкуса»
+				li: a.shops_menu_item.link_dotted(shop-id='198479', href='/shops/petrovka_d_19_korp_1/') Петровка, д. 19, корп. 1
+				li: a.shops_menu_item.link_dotted(shop-id='198462', href='/shops/pokryshkina_4/') Покрышкина, д. 4
+				li: a.shops_menu_item.link_dotted(shop-id='198451', href='/shops/prospekt_vernadskogo_14a/') Проспект Вернадского, д. 14А
+				li: a.shops_menu_item.link_dotted(shop-id='198480', href='/shops/prospekt_mira_d_58/') Проспект Мира, д. 58
+				li: a.shops_menu_item.link_dotted(shop-id='198481', href='/shops/prospekt_mira_d_97/') Проспект Мира, д. 97
+				li: a.shops_menu_item.link_dotted(shop-id='198496', href='/shops/protochnyj_pereulok_11/') Проточный переулок, д. 11
+				li: a.shops_menu_item.link_dotted(shop-id='198457', href='/shops/profsoyuznaya_16_10/') Профсоюзная, д. 16/10
+				li: a.shops_menu_item.link_dotted(shop-id='204390', href='/shops/profsoyuznaya-64/') Профсоюзная, д. 64/66
+				li: a.shops_menu_item.link_dotted(shop-id='198723', href='/shops/pyatnickoe_sh_6_km/') Пятницкое шоссе, 6 км от МКАД, Марьино-Знаменское
+				li: a.shops_menu_item.link_dotted(shop-id='198482', href='/shops/pyatnickoe_shosse_d_14/') Пятницкое шоссе, д. 14
+				li: a.shops_menu_item.link_dotted(shop-id='204411', href='/shops/rublevskoe-sh-d42/') Рублевское шоссе, д. 42 к.1, ТЦ «ZAR»
+				li: a.shops_menu_item.link_dotted(shop-id='198459', href='/shops/rusakovskaya_22/') Русаковская, д. 22
+				li: a.shops_menu_item.link_dotted(shop-id='198483', href='/shops/sadovaya-triumfalnaya-22/') Садовая-Триумфальная, д. 22/31, стр. 1
+				li: a.shops_menu_item.link_dotted(shop-id='198484', href='/shops/sadovaya-chernogryazskaya_d_13_3/') Садовая-Черногрязская, д. 13/3
+				li: a.shops_menu_item.link_dotted(shop-id='198446', href='/shops/svobody_42/') Свободы, д. 42
+				li: a.shops_menu_item.link_dotted(shop-id='198497', href='/shops/simferopol_skij_bul_var_22/') Симферопольский бульвар, д. 22
+				li: a.shops_menu_item.link_dotted(shop-id='198485', href='/shops/staraya_basmannaya_d_28_2/') Старая Басманная, д. 28/2
+				li: a.shops_menu_item.link_dotted(shop-id='198449', href='/shops/taganskaya_plowad_12_4/') Таганская площадь, д. 12/4
+				li: a.shops_menu_item.link_dotted(shop-id='198486', href='/shops/tverskaya-yamskaya_2-ya_d_54/') Тверская-Ямская 2-я, д. 54
+				li: a.shops_menu_item.link_dotted(shop-id='198487', href='/shops/trubnaya_plowad_d_2_tc_neglinnaya_plaza/') Трубная площадь, д. 2, ТЦ «Неглинная Плаза»
+				li: a.shops_menu_item.link_dotted(shop-id='198447', href='/shops/himki_leningradskaya_16b/') Химки, ул. Ленинградская, д. 16Б
+				li: a.shops_menu_item.link_dotted(shop-id='198503', href='/shops/himki_ul_molodezhnaya_6/') Химки, ул. Молодежная, д. 6
+				li: a.shops_menu_item.link_dotted(shop-id='198450', href='/shops/chayanova_14_10/') Чаянова, д. 14/10
+				li.last_shop
+					a.shops_menu_item.link_dotted(shop-id='198444', href='/shops/yaroslavskoe_shosse_12/') Ярославское шоссе, д. 12
+		.shops_search_map_menu.top.shop_menu_spb
+			ul.shops_menu.general
+				li: a.shops_menu_item.link_dotted(shop-id='203037', href='/shops/bolshoj_ps_58/') Большой проспект П.С., д. 58, ТК «Априори»
+				li: a.shops_menu_item.link_dotted(shop-id='198490', href='/shops/vyborgskoe_shosse_13/') Выборгское шоссе, д. 13, ТЦ «Экополис премиум»
+				li: a.shops_menu_item.link_dotted(shop-id='203024', href='/shops/vsevolozhsk_geroev_17/') Ленинградская область, г. Всеволожск, ул. Героев, д. 17
+				li: a.shops_menu_item.link_dotted(shop-id='198498', href='/shops/litejnyj_prospekt_26/') Литейный проспект, д. 26
+				li: a.shops_menu_item.link_dotted(shop-id='198499', href='/shops/moskovskij_prospekt_111/') Московский проспект, д. 111
+				li.last_shop
+					a.shops_menu_item.link_dotted(shop-id='198492', href='/shops/nahimova_d_5/') Нахимова, д. 5
+			ul.shops_menu.enoteca.display_none
+			ul.shops_menu.round-the-clock.display_none
+				li: a.shops_menu_item.link_dotted(shop-id='198490', href='/shops/vyborgskoe_shosse_13/') Выборгское шоссе, д. 13, ТЦ «Экополис премиум»
+				li: a.shops_menu_item.link_dotted(shop-id='198498', href='/shops/litejnyj_prospekt_26/') Литейный проспект, д. 26
+				li: a.shops_menu_item.link_dotted(shop-id='198499', href='/shops/moskovskij_prospekt_111/') Московский проспект, д. 111
+				li.last_shop
+					a.shops_menu_item.link_dotted(shop-id='198492', href='/shops/nahimova_d_5/') Нахимова, д. 5
+			ul.shops_menu.av-daily.display_none
+			ul.shops_menu.av-market.display_none
+			ul.shops_menu.azbuka.display_none
+				li: a.shops_menu_item.link_dotted(shop-id='203037', href='/shops/bolshoj_ps_58/') Большой проспект П.С., д. 58, ТК «Априори»
+				li: a.shops_menu_item.link_dotted(shop-id='198490', href='/shops/vyborgskoe_shosse_13/') Выборгское шоссе, д. 13, ТЦ «Экополис премиум»
+				li: a.shops_menu_item.link_dotted(shop-id='203024', href='/shops/vsevolozhsk_geroev_17/') Ленинградская область, г. Всеволожск, ул. Героев, д. 17
+				li: a.shops_menu_item.link_dotted(shop-id='198498', href='/shops/litejnyj_prospekt_26/') Литейный проспект, д. 26
+				li: a.shops_menu_item.link_dotted(shop-id='198499', href='/shops/moskovskij_prospekt_111/') Московский проспект, д. 111
+				li.last_shop
+					a.shops_menu_item.link_dotted(shop-id='198492', href='/shops/nahimova_d_5/') Нахимова, д. 5
+			ul.shops_menu.av-enoteca.display_none
+				li: a.shops_menu_item.link_dotted(shop-id='203037', href='/shops/bolshoj_ps_58/') Большой проспект П.С., д. 58, ТК «Априори»
+				li: a.shops_menu_item.link_dotted(shop-id='198490', href='/shops/vyborgskoe_shosse_13/') Выборгское шоссе, д. 13, ТЦ «Экополис премиум»
+				li: a.shops_menu_item.link_dotted(shop-id='203024', href='/shops/vsevolozhsk_geroev_17/') Ленинградская область, г. Всеволожск, ул. Героев, д. 17
+				li: a.shops_menu_item.link_dotted(shop-id='198498', href='/shops/litejnyj_prospekt_26/') Литейный проспект, д. 26
+				li: a.shops_menu_item.link_dotted(shop-id='198499', href='/shops/moskovskij_prospekt_111/') Московский проспект, д. 111
+				li.last_shop
+					a.shops_menu_item.link_dotted(shop-id='198492', href='/shops/nahimova_d_5/') Нахимова, д. 5
