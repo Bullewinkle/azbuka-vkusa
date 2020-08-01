@@ -4,7 +4,7 @@
 *.sublime-project
 *.sublime-workspace
 
-docs/
+dist/
 node_modules/
 bower_components/
 
