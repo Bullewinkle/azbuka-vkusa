@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="911a18ed-5f39-41f1-ae26-d9d5cab668b2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/docs/index.html" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fVHpmEQ8Cu2UhlJc3Rx5by2hMG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="npm.client-dev">
+    <configuration name="client-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="client-dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="client-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="client-prod" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.client-dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.client-prod" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="911a18ed-5f39-41f1-ae26-d9d5cab668b2" name="Default Changelist" comment="" />
+      <created>1596296525090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596296525090</updated>
+      <workItem from="1596296526282" duration="5027000" />
+    </task>
+    <task id="LOCAL-00001" summary="add final build">
+      <created>1596315705413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596315705413</updated>
+    </task>
+    <task id="LOCAL-00002" summary="try to update deps, but failed">
+      <created>1596316542102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596316542102</updated>
+    </task>
+    <task id="LOCAL-00003" summary="last build">
+      <created>1596316919352</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596316919352</updated>
+    </task>
+    <task id="LOCAL-00004" summary="last build">
+      <created>1596316970169</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596316970169</updated>
+    </task>
+    <task id="LOCAL-00005" summary="last build">
+      <created>1596317270138</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596317270138</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add final build" />
+    <MESSAGE value="try to update deps, but failed" />
+    <MESSAGE value="last build" />
+    <option name="LAST_COMMIT_MESSAGE" value="last build" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="526" y="187" key="CommitChangelistDialog2" timestamp="1596317269851">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="526" y="187" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1596317269851" />
+    <state width="1510" height="436" key="GridCell.Tab.0.bottom" timestamp="1596316492249">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1510" height="436" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1596316492249" />
+    <state width="1510" height="436" key="GridCell.Tab.0.center" timestamp="1596316492248">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1510" height="436" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1596316492248" />
+    <state width="1510" height="436" key="GridCell.Tab.0.left" timestamp="1596316492247">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1510" height="436" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1596316492247" />
+    <state width="1510" height="436" key="GridCell.Tab.0.right" timestamp="1596316492249">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1510" height="436" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1596316492249" />
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1596316924228">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1596316924228" />
+    <state x="758" y="521" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596361920672">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="758" y="521" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1200@0.0.1920.1200" timestamp="1596361920672" />
+    <state x="661" y="355" width="701" height="490" key="find.popup" timestamp="1596302315873">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="661" y="355" width="701" height="490" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1596302315873" />
+  </component>
+</project>
