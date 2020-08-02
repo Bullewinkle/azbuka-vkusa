@@ -1,6 +1,6 @@
 module.exports = ->
 
-	@$.sprite = require('css-sprite').stream
+	@$.sprite = require('sprity')
 
 	errorHandler = @$.notify.onError
 		title: 'Sprite error'
