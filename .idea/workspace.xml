@@ -1,7 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="911a18ed-5f39-41f1-ae26-d9d5cab668b2" name="Default Changelist" comment="" />
+    <list default="true" id="911a18ed-5f39-41f1-ae26-d9d5cab668b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app/app-1446408720179.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/vendor/vendor-1446408720179.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC-Bold/converted-files/GillSansC-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC-Bold/converted-files/GillSansC-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC-Bold/converted-files/GillSansC-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC-Bold/converted-files/GillSansC-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC-BoldItalic/converted-files/GillSansC-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC-BoldItalic/converted-files/GillSansC-BoldItalic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC-BoldItalic/converted-files/GillSansC-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC-BoldItalic/converted-files/GillSansC-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC-Italic/converted-files/GillSansC-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC-Italic/converted-files/GillSansC-Italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC-Italic/converted-files/GillSansC-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC-Italic/converted-files/GillSansC-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC/converted-files/GillSansC.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC/converted-files/GillSansC.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC/converted-files/GillSansC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansC/converted-files/GillSansC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansCondBlackC/converted-files/GillSansCondBlackC.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansCondBlackC/converted-files/GillSansCondBlackC.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansCondBlackC/converted-files/GillSansCondBlackC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansCondBlackC/converted-files/GillSansCondBlackC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansCondC-Bold/converted-files/GillSansCondC-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansCondC-Bold/converted-files/GillSansCondC-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansCondC-Bold/converted-files/GillSansCondC-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansCondC-Bold/converted-files/GillSansCondC-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansCondC/converted-files/GillSansCondC.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansCondC/converted-files/GillSansCondC.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansCondC/converted-files/GillSansCondC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansCondC/converted-files/GillSansCondC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansExtraBoldC/converted-files/GillSansExtraBoldC.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansExtraBoldC/converted-files/GillSansExtraBoldC.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansExtraBoldC/converted-files/GillSansExtraBoldC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansExtraBoldC/converted-files/GillSansExtraBoldC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansLightC-Italic/converted-files/GillSansLightC-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansLightC-Italic/converted-files/GillSansLightC-Italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansLightC-Italic/converted-files/GillSansLightC-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansLightC-Italic/converted-files/GillSansLightC-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansLightC/converted-files/GillSansLightC.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansLightC/converted-files/GillSansLightC.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansLightC/converted-files/GillSansLightC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/GillSans/GillSansLightC/converted-files/GillSansLightC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Black/converted-files/HelveticaNeueCyr-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Black/converted-files/HelveticaNeueCyr-Black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Black/converted-files/HelveticaNeueCyr-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Black/converted-files/HelveticaNeueCyr-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-BlackItalic/converted-files/HelveticaNeueCyr-BlackItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-BlackItalic/converted-files/HelveticaNeueCyr-BlackItalic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-BlackItalic/converted-files/HelveticaNeueCyr-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-BlackItalic/converted-files/HelveticaNeueCyr-BlackItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Bold/converted-files/HelveticaNeueCyr-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Bold/converted-files/HelveticaNeueCyr-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Bold/converted-files/HelveticaNeueCyr-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Bold/converted-files/HelveticaNeueCyr-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-BoldItalic/converted-files/HelveticaNeueCyr-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-BoldItalic/converted-files/HelveticaNeueCyr-BoldItalic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-BoldItalic/converted-files/HelveticaNeueCyr-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-BoldItalic/converted-files/HelveticaNeueCyr-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Heavy/converted-files/HelveticaNeueCyr-Heavy.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Heavy/converted-files/HelveticaNeueCyr-Heavy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Heavy/converted-files/HelveticaNeueCyr-Heavy.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Heavy/converted-files/HelveticaNeueCyr-Heavy.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-HeavyItalic/converted-files/HelveticaNeueCyr-HeavyItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-HeavyItalic/converted-files/HelveticaNeueCyr-HeavyItalic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-HeavyItalic/converted-files/HelveticaNeueCyr-HeavyItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-HeavyItalic/converted-files/HelveticaNeueCyr-HeavyItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Italic/converted-files/HelveticaNeueCyr-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Italic/converted-files/HelveticaNeueCyr-Italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Italic/converted-files/HelveticaNeueCyr-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Italic/converted-files/HelveticaNeueCyr-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Light/converted-files/HelveticaNeueCyr-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Light/converted-files/HelveticaNeueCyr-Light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Light/converted-files/HelveticaNeueCyr-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Light/converted-files/HelveticaNeueCyr-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-LightItalic/converted-files/HelveticaNeueCyr-LightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-LightItalic/converted-files/HelveticaNeueCyr-LightItalic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-LightItalic/converted-files/HelveticaNeueCyr-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-LightItalic/converted-files/HelveticaNeueCyr-LightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Medium/converted-files/HelveticaNeueCyr-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Medium/converted-files/HelveticaNeueCyr-Medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Medium/converted-files/HelveticaNeueCyr-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Medium/converted-files/HelveticaNeueCyr-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-MediumItalic/converted-files/HelveticaNeueCyr-MediumItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-MediumItalic/converted-files/HelveticaNeueCyr-MediumItalic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-MediumItalic/converted-files/HelveticaNeueCyr-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-MediumItalic/converted-files/HelveticaNeueCyr-MediumItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Roman/converted-files/HelveticaNeueCyr-Roman.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Roman/converted-files/HelveticaNeueCyr-Roman.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Roman/converted-files/HelveticaNeueCyr-Roman.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Roman/converted-files/HelveticaNeueCyr-Roman.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Thin/converted-files/HelveticaNeueCyr-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Thin/converted-files/HelveticaNeueCyr-Thin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Thin/converted-files/HelveticaNeueCyr-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-Thin/converted-files/HelveticaNeueCyr-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-ThinItalic/converted-files/HelveticaNeueCyr-ThinItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-ThinItalic/converted-files/HelveticaNeueCyr-ThinItalic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-ThinItalic/converted-files/HelveticaNeueCyr-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-ThinItalic/converted-files/HelveticaNeueCyr-ThinItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-UltraLight/converted-files/HelveticaNeueCyr-UltraLight.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-UltraLight/converted-files/HelveticaNeueCyr-UltraLight.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-UltraLight/converted-files/HelveticaNeueCyr-UltraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-UltraLight/converted-files/HelveticaNeueCyr-UltraLight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-UltraLightItalic/converted-files/HelveticaNeueCyr-UltraLightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-UltraLightItalic/converted-files/HelveticaNeueCyr-UltraLightItalic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-UltraLightItalic/converted-files/HelveticaNeueCyr-UltraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/HelveticaNeue/HelveticaNeueCyr-UltraLightItalic/converted-files/HelveticaNeueCyr-UltraLightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/arrow-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/arrow-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/dev_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/dev_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/dev_header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/dev_map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/dev_video.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/main-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/man-optimized.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/marker-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png-optimized/vm-l-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png-optimized/vm-l-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png-optimized/vm-l-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png-optimized/vm-l-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png-optimized/vm-l-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png-optimized/vm-l-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png-optimized/vm-l-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png-optimized/vm-l-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png/vm-l-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png/vm-l-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png/vm-l-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png/vm-l-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png/vm-l-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png/vm-l-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png/vm-l-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite-png/vm-l-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/video.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app/app-1446408720179.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/vendor-1446408720179.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +157,11 @@
     <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/docs/index.html" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fVHpmEQ8Cu2UhlJc3Rx5by2hMG" />
@@ -65,9 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.client-dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.client-prod" />
+        <item itemvalue="npm.client-dev" />
+        <item itemvalue="npm.client-dev" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -121,6 +274,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add final build" />
